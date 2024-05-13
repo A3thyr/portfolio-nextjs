@@ -1,14 +1,16 @@
 "use client";
 
 import { motion } from "framer-motion";
-import React from "react";
 import { BsGithub, BsTelegram } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { TypeAnimation } from "react-type-animation";
 
 export default function Intro() {
   return (
-    <section className="max-w-[50rem] text-center sm:mb-0">
+    <section
+      id="home"
+      className="scroll-mt-[100rem] max-w-[50rem] text-center sm:mb-0"
+    >
       <div className="flex items-center justify-center flex-col">
         <motion.div
           className="flex flex-col text-3xl !leading-[1.3] sm:text-4xl"
@@ -37,7 +39,7 @@ export default function Intro() {
 
         <motion.div
           className="flex sm:flex-row items-center justify-center
-          gap-2 px-4 text-lg mt-5"
+          gap-2 px-4 text-lg mt-10"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{
@@ -47,7 +49,7 @@ export default function Intro() {
           <a
             href="/CV.pdf"
             download
-            className="bg-white font-medium px-7 py-3 flex items-center gap-2 rounded-full
+            className="bg-white font-medium px-7 py-2 flex items-center gap-2 rounded-full
             outline-none focus:scale-[1.08] hover:scale-110  active:scale-105 transition cursor-pointer
             border border-black/10"
           >
