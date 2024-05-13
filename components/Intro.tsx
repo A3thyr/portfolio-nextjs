@@ -55,14 +55,14 @@ export default function Intro() {
             download
             className="bg-white font-medium px-7 py-2 flex items-center gap-2 rounded-full
             outline-none focus:scale-[1.08] hover:scale-110  active:scale-105 transition cursor-pointer
-            border border-black/10"
+            border borderBlack border-black/10 dark:bg-white/10"
           >
             Download CV <HiDownload />
           </a>
           <a
             className="bg-white p-3 flex items-center gap-2 rounded-full
             outline-none focus:scale-[1.15] hover:scale-110  active:scale-105 transition
-            cursor-pointer border border-black/10"
+            cursor-pointer border borderBlack border-black/10 dark:bg-white/10 dark:text-white/80"
             href="https://github.com/A3thyr"
             target="_blank"
           >
@@ -72,7 +72,7 @@ export default function Intro() {
           <a
             className="bg-white p-3 flex items-center gap-2 rounded-full
             outline-none focus:scale-[1.15] hover:scale-110  active:scale-105 transition
-            cursor-pointer border border-black/10"
+            cursor-pointer border borderBlack border-black/10 dark:bg-white/10 dark:text-white/80"
             href="https://t.me/a3thyr"
             target="_blank"
           >
