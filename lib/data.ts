@@ -1,7 +1,7 @@
-import yourforksImg from "@/public/yourforks.png";
-import reactsneakersImg from "@/public/reactsneakers.png";
-import reactpizzaImg from "@/public/reactpizza.png";
-import issuetracker from "@/public/issuetracker.png";
+import yourforksImg from "../public/yourforks.png";
+import reactsneakersImg from "../public/reactsneakers.png";
+import reactpizzaImg from "../public/reactpizza.png";
+import issuetracker from "../public/issuetracker.png";
 import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
 import { CgWorkAlt } from "react-icons/cg";

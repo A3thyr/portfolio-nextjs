@@ -1,6 +1,6 @@
 "use client";
 
-import { projects } from "@/lib/data";
+import { projects } from "../lib/data";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";

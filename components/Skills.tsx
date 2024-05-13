@@ -1,4 +1,4 @@
-import { skillsData } from "@/lib/data";
+import { skillsData } from "../lib/data";
 import { motion } from "framer-motion";
 
 const fadeInAnimationVariants = {

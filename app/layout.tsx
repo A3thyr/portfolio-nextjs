@@ -1,8 +1,8 @@
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import ThemeSwitch from "@/components/Theme-switch";
-import ActiveSectionContextProvider from "@/context/active-section-context";
-import ThemeContextProvider from "@/context/theme-context";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import ThemeSwitch from "../components/Theme-switch";
+import ActiveSectionContextProvider from "../context/active-section-context";
+import ThemeContextProvider from "../context/theme-context";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";

@@ -1,8 +1,8 @@
 "use client";
 
-import { useTheme } from "@/context/theme-context";
-import { experienceData } from "@/lib/data";
-import { useSectionInView } from "@/lib/hooks";
+import { useTheme } from "../context/theme-context";
+import { experienceData } from "../lib/data";
+import { useSectionInView } from "../lib/hooks";
 import React from "react";
 import {
   VerticalTimeline,

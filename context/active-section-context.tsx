@@ -1,7 +1,7 @@
 "use client";
 
 import React, { createContext, useContext, useState } from "react";
-import { links } from "@/lib/data";
+import { links } from "../lib/data";
 
 export type SectionName = (typeof links)[number]["name"];
 

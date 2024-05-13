@@ -1,6 +1,6 @@
 "use client";
 
-import { useSectionInView } from "@/lib/hooks";
+import { useSectionInView } from "../lib/hooks";
 import { motion } from "framer-motion";
 import { BsGithub, BsTelegram } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";

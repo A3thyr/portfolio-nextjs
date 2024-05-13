@@ -1,7 +1,7 @@
 "use client";
 
-import { useActiveSectionContext } from "@/context/active-section-context";
-import { links } from "@/lib/data";
+import { useActiveSectionContext } from "../context/active-section-context";
+import { links } from "../lib/data";
 import clsx from "clsx";
 import { motion } from "framer-motion";
 import Link from "next/link";
