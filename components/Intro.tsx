@@ -1,13 +1,17 @@
 "use client";
 
+import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
 import { BsGithub, BsTelegram } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { TypeAnimation } from "react-type-animation";
 
 export default function Intro() {
+  const { ref } = useSectionInView("Home", 0.5);
+
   return (
     <section
+      ref={ref}
       id="home"
       className="scroll-mt-[100rem] max-w-[50rem] text-center sm:mb-0"
     >

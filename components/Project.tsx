@@ -45,8 +45,10 @@ export default function Project({
          sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]"
         >
           <h3 className="text-2xl font-semibold">{name}</h3>
-          <p className="mt-2 leading-relaxed text-gray-700 ">{description}</p>
-          <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto mb-4">
+          <p className="mt-2 leading-relaxed text-gray-700 mb-4">
+            {description}
+          </p>
+          <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto mb-4 ">
             {tags.map((tag, index) => (
               <li
                 className="bg-black/[0.7] px-3 py-1 text-[0.7rem] 

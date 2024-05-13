@@ -1,18 +1,22 @@
 "use client";
 
+import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
 import SectionHeading from "./Section-heading";
 import Skills from "./Skills";
 
 export default function About() {
+  const { ref } = useSectionInView("About");
+
   return (
     <motion.section
       className="mt-40 mb-28 text-center
-       leading-8 sm:mb-40 scroll-mt-28"
+      leading-8 sm:mb-40 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
       id="about"
+      ref={ref}
     >
       <SectionHeading>About Me</SectionHeading>
       <div
@@ -24,8 +28,8 @@ export default function About() {
             Little bit of info
           </h1>
           <p>
-            Hi, my name is Nick and I am a{" "}
-            <span className="font-bold">{"highly ambitious"}</span> and
+            Hi, my name is Nick and I am an{" "}
+            <span className="font-bold">{" ambitious"}</span> and
             <span className="font-bold">{" passionate"}</span> web developer
             based in Saint Petersburg.
           </p>
@@ -37,8 +41,8 @@ export default function About() {
           <br />
           <p>
             I have a lot of hobbies, which helps me relax or just spend my time
-            with fun. From reading, doing calisthenics, playing video games. I
-            am always seeking new experiences and love to keep myself engaged
+            with fun. From reading, doing calisthenics, to playing video games.
+            I am always seeking new experiences and love to keep myself engaged
             and learning new things.
           </p>
           <br />
