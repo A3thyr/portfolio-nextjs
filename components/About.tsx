@@ -6,11 +6,11 @@ import SectionHeading from "./Section-heading";
 import Skills from "./Skills";
 
 export default function About() {
-  const { ref } = useSectionInView("About");
+  const { ref } = useSectionInView("About", 0.75);
 
   return (
     <motion.section
-      className="mt-40 mb-28 text-center
+      className="mt-80 mb-28 text-center
       leading-8 sm:mb-40 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
